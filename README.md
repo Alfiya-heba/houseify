@@ -1,12 +1,60 @@
-# React + Vite
+# 🏠 Houseify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Houseify is a modern real estate landing page built using **React.js**, **Tailwind CSS**, and **Vite**. It showcases featured property listings, brand information, customer testimonials, and a contact form integrated with Web3Forms — all designed with clean UI and smooth animations.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Live Demo](https://houseify-dtkv.vercel.app)
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Houseify Hero Section](./screenshots/hero.png)
+![Projects Section](./screenshots/projects.png)
+![Contact Section](./screenshots/contact.png)
+
+---
+## 🛠️ Tech Stack
+
+- **React.js** (with functional components and hooks)
+- **Tailwind CSS** (for fast and responsive styling)
+- **Framer Motion** (for animations)
+- **Web3Forms API** (for form submission)
+- **Vite** (build tool)
+- **Vercel** (deployment)
+
+---
+
+## 📂 Features
+
+- ✅ Responsive design for all devices
+- ✅ Animated page transitions using Framer Motion
+- ✅ Projects slider with smooth scroll
+- ✅ Testimonials with star ratings
+- ✅ Working contact form using Web3Forms
+- ✅ .env integration for secure access key handling
+
+---
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Alfiya-heba/houseify.git
+
+# Navigate to the project folder
+cd houseify
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+🔐 Environment Variables
+Create a .env file in the root and add your Web3Forms access key:
+
+env
+Copy code
+VITE_WEB3FORMS_ACCESS_KEY=your_access_key_here
+
